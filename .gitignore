@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.runtime/
+.wrangler/
+artifacts/
+worker/assets.generated.ts
+.env*
+*.log
+*.tar.gz

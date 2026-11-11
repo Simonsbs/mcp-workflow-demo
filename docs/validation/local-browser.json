@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-11",
+  "origin": "http://127.0.0.1:5178",
+  "method": "Actual UI through CUA",
+  "passed": 20,
+  "checks": ["Private visitor workspace creation", "Modern MCP investigation", "Live four-tool discovery", "Exact payload inspection", "Pending execution denied", "Controller review scope denied", "Explicit rejection recorded", "Rejected execution denied", "Explicit approval recorded", "One synthetic task created", "Replay returns same task", "Five live security probes pass", "Retrieved injection remains untrusted data", "Healthy order cannot draft action", "Actual ZIP downloaded", "Six extracted files and 44 independent checks", "Downloaded JSON verified through file chooser", "Reload restores workspace and decisions", "390 by 844 mobile without page overflow or unlabelled inputs", "Wire inspector shows actual protocol metadata without authorization headers"],
+  "download": { "tasks": 1, "proposals": 2, "auditEvents": 27, "verificationChecks": 44, "credentialsExcluded": true },
+  "humanAcceptance": false
+}
