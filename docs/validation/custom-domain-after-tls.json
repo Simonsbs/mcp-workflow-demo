@@ -1,0 +1,8 @@
+{
+  "origin": "https://workflow.bestdev.co.il",
+  "at": "2026-11-11T18:07:09.045Z",
+  "passed": 0,
+  "requests": 1,
+  "results": [],
+  "error": "Expected API JSON from /api/health; received HTTP 404."
+}

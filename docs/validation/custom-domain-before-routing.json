@@ -1,0 +1,8 @@
+{
+  "origin": "https://workflow.bestdev.co.il",
+  "at": "2026-11-11T18:06:23.158Z",
+  "passed": 0,
+  "requests": 1,
+  "results": [],
+  "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+}

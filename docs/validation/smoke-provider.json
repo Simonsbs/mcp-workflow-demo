@@ -1,0 +1,14 @@
+{
+  "origin": "https://simonsbs-workflow-lab.thefrik.chatgpt.site",
+  "at": "2026-11-11T18:02:08.254Z",
+  "passed": 6,
+  "checks": [
+    "Public HTML without sign-in",
+    "Response security headers",
+    "Published JS and CSS assets",
+    "Ready SQL with exact local application fingerprint",
+    "Published architecture, contract and validation docs",
+    "Static route and method boundaries"
+  ],
+  "fingerprint": "3e090580a1a8085806d750e8ef7d3d59f930747112856b6b880a9c8a79673cbc"
+}

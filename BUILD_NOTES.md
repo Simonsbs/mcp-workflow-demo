@@ -2,6 +2,17 @@
 
 React/Vite frontend, official MCP client/server SDK 2.4, web-standard Streamable HTTP, a shared TypeScript policy service, Node SQLite locally and Cloudflare Worker/D1 in public hosting. Zod strict input schemas reject unknown fields. A request-scoped SDK server avoids isolate-level visitor state. Browser/workerd package conditions select the SDK's CSP-compatible validator.
 
+```mermaid
+flowchart LR
+  UI[Visitor browser] -->|Reader / executor capability| MCP[Real MCP SDK endpoint]
+  UI -->|Controller / reviewer capability| Review[Separate review API]
+  MCP --> Policy[Shared authorization and approval policy]
+  Review --> Policy
+  Policy -->|Atomic revision compare and swap| SQL[(SQLite locally / D1 publicly)]
+  SQL --> Evidence[Hash-linked audit and evidence ZIP]
+  Data[Untrusted synthetic partner text] -->|Data only| MCP
+```
+
 ## Trust boundaries
 
 Partner error text is untrusted evidence. The runner follows a fixed read/read/draft sequence. A deterministic allowlisted template uses error identifiers and codes, not instructions in raw text. No language model or autonomous planner is involved. This demonstrates enforceable tool boundaries and does not establish resistance of an arbitrary LLM to prompt injection.

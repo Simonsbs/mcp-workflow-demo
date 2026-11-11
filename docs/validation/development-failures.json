@@ -1,8 +1,25 @@
 {
   "scope": "Retained development failures before the final validation run",
   "failures": [
-    {"area":"Initial type check","observed":"A copied SQL statement helper was mistakenly used as a query executor; a removed icon export and missing CSS type reference also failed compilation.","repair":"Use Store.batch read results, a supported icon and Vite CSS types. Type check passes."},
-    {"area":"Initial test file parse","observed":"Digest calculation used await inside a non-async assertion callback, preventing the test file from loading.","repair":"Make callbacks async. All 40 unit tests pass."},
-    {"area":"Local browser live security probe display","observed":"The server correctly denied three actions, but the probe compared expected error codes only against Error.message. Those checks displayed fail despite the correct denial.","repair":"Include the typed Problem.code when interpreting the actual response. Rerun all five browser probes."}
+    {
+      "area": "Initial type check",
+      "observed": "A copied SQL statement helper was mistakenly used as a query executor; a removed icon export and missing CSS type reference also failed compilation.",
+      "repair": "Use Store.batch read results, a supported icon and Vite CSS types. Type check passes."
+    },
+    {
+      "area": "Initial test file parse",
+      "observed": "Digest calculation used await inside a non-async assertion callback, preventing the test file from loading.",
+      "repair": "Make callbacks async. All 40 unit tests pass."
+    },
+    {
+      "area": "Local browser live security probe display",
+      "observed": "The server correctly denied three actions, but the probe compared expected error codes only against Error.message. Those checks displayed fail despite the correct denial.",
+      "repair": "Include the typed Problem.code when interpreting the actual response. All five local probes passed on rerun."
+    },
+    {
+      "area": "Custom-domain routing after DNS and TLS activation",
+      "observed": "The provider URL passed all checks, but the new custom hostname returned the hosting dispatcher 404, including briefly after the native domain status became active. Two failed HTTP attempts are retained separately.",
+      "repair": "Republish the existing saved source version after its custom domain binding is active. HTTPS then served the correct app and all 34 HTTP scenarios and six hosting checks passed."
+    }
   ]
 }

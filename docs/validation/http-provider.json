@@ -1,0 +1,151 @@
+{
+  "origin": "https://simonsbs-workflow-lab.thefrik.chatgpt.site",
+  "at": "2026-11-11T18:02:51.857Z",
+  "passed": 34,
+  "requests": 45,
+  "results": [
+    {
+      "name": "SQL health and source fingerprint",
+      "passed": true
+    },
+    {
+      "name": "Unauthenticated access rejected",
+      "passed": true
+    },
+    {
+      "name": "Isolated synthetic workspace created",
+      "passed": true
+    },
+    {
+      "name": "Modern MCP negotiation",
+      "passed": true
+    },
+    {
+      "name": "Live four-tool discovery with strict schemas",
+      "passed": true
+    },
+    {
+      "name": "Read order through real MCP",
+      "passed": true
+    },
+    {
+      "name": "Read untrusted integration history",
+      "passed": true
+    },
+    {
+      "name": "Deterministic proposal has no write authority",
+      "passed": true
+    },
+    {
+      "name": "Read and draft leave operational task count zero",
+      "passed": true
+    },
+    {
+      "name": "Healthy order cannot generate an action",
+      "passed": true
+    },
+    {
+      "name": "MCP argument validation rejects malformed input",
+      "passed": true
+    },
+    {
+      "name": "Retrieved injection remains data and cannot enter task template",
+      "passed": true
+    },
+    {
+      "name": "Read-only capability cannot write",
+      "passed": true
+    },
+    {
+      "name": "Executor scope cannot bypass approval",
+      "passed": true
+    },
+    {
+      "name": "Token audience rejected at HTTP boundary",
+      "passed": true
+    },
+    {
+      "name": "MCP token cannot call review API",
+      "passed": true
+    },
+    {
+      "name": "Changed proposal digest rejected",
+      "passed": true
+    },
+    {
+      "name": "Arbitrary action text rejected",
+      "passed": true
+    },
+    {
+      "name": "Approval binds exact payload, subject and resource",
+      "passed": true
+    },
+    {
+      "name": "Pending call denied",
+      "passed": true
+    },
+    {
+      "name": "Controller cannot self-approve",
+      "passed": true
+    },
+    {
+      "name": "Explicit rejection recorded",
+      "passed": true
+    },
+    {
+      "name": "Rejected write denied",
+      "passed": true
+    },
+    {
+      "name": "Changed digest denied after approval",
+      "passed": true
+    },
+    {
+      "name": "Cross-workspace approval cannot execute",
+      "passed": true
+    },
+    {
+      "name": "Concurrent approved execution creates one exact task",
+      "passed": true
+    },
+    {
+      "name": "Stale source revision rejected",
+      "passed": true
+    },
+    {
+      "name": "Replay returns the existing task",
+      "passed": true
+    },
+    {
+      "name": "Legacy stateless SDK interoperability",
+      "passed": true
+    },
+    {
+      "name": "Stored audit, task and approval evidence independently verifies",
+      "passed": true
+    },
+    {
+      "name": "Real ZIP extraction preserves all six evidence files",
+      "passed": true
+    },
+    {
+      "name": "No bearer credentials in state or export",
+      "passed": true
+    },
+    {
+      "name": "Cross-origin browser write blocked",
+      "passed": true
+    },
+    {
+      "name": "Oversized request blocked",
+      "passed": true
+    }
+  ],
+  "fingerprint": "3e090580a1a8085806d750e8ef7d3d59f930747112856b6b880a9c8a79673cbc",
+  "workspaceSummary": {
+    "tasks": 1,
+    "approvals": 3,
+    "auditEvents": 28,
+    "verificationChecks": 49
+  }
+}

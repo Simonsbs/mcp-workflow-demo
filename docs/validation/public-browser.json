@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-11",
+  "origin": "https://workflow.bestdev.co.il",
+  "method": "Actual public UI through CUA with production response security policy",
+  "passed": 14,
+  "checks": [
+    "Anonymous workspace creation",
+    "Real modern MCP investigation",
+    "Pending execution denied",
+    "Controller self-approval scope denied",
+    "Explicit demo reviewer approval",
+    "One exact synthetic task created",
+    "Replay returns same task",
+    "All five actual denial probes pass",
+    "Injection fixture stays untrusted data",
+    "Live tool discovery",
+    "Actual ZIP download and independent six-file extraction",
+    "Downloaded JSON verified through file chooser",
+    "Reload restores workspace and consumed approval",
+    "390 by 844 mobile layout without page overflow or unlabelled inputs"
+  ],
+  "download": {
+    "tasks": 1,
+    "proposals": 1,
+    "auditEvents": 17,
+    "verificationChecks": 30,
+    "credentialsExcluded": true
+  },
+  "postRedeploymentBrowserCheck": "The same consumed approval returned task cb541787 after successful public redeployment.",
+  "humanAcceptance": false
+}

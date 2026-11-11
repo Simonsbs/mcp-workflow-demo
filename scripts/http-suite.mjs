@@ -26,6 +26,10 @@ export async function httpSuite(origin) {
       body: value === undefined ? undefined : JSON.stringify(value),
       redirect: "error",
     });
+    if (!(r.headers.get("content-type") ?? "").includes("application/json"))
+      throw new Error(
+        `Expected API JSON from ${path}; received HTTP ${r.status}.`,
+      );
     return { status: r.status, headers: r.headers, body: await r.json() };
   }
   const pass = (name, fn) => {

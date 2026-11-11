@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-11T18:07:11.733Z",
+  "method": "Direct HTTPS, default certificate validation, no redirects",
+  "passed": 5,
+  "checks": [
+    {
+      "host": "bestdev.co.il",
+      "status": 200
+    },
+    {
+      "host": "knowledge.bestdev.co.il",
+      "status": 200
+    },
+    {
+      "host": "integration.bestdev.co.il",
+      "status": 200
+    },
+    {
+      "host": "presales.bestdev.co.il",
+      "status": 200
+    },
+    {
+      "host": "traceability.bestdev.co.il",
+      "status": 200
+    }
+  ]
+}
